@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f2f2f2;
   text-align: center;
   margin-top: 50px;
 }
@@ -15,10 +15,19 @@ body {
   border: 2px solid lightgray;
 }
 
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid lightgray;
+}
+
 button {
   padding: 10px 15px;
   border: none;
-  background-color: steelblue;
+  background-color: rgb(151, 194, 229);
   color: white;
   border-radius: 5px;
   cursor: pointer;
